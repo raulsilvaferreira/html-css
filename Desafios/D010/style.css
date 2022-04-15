@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*
+This link will be the main title's font style
+font-family: 'Bebas Neue', cursive;
+*/
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+
+}
+
+/* Area do cabecalho */
+
+header {
+    background-image: linear-gradient(to top, #154C2E, #3DDA84);
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    box-shadow: 10px 6px 9px 0px rgba(0, 0, 0, 0.336);
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+nav {
+    text-align: justify;
+    margin: 30px 0px 0px 0px;
+    padding: 5px;
+}
+
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 40px;
+    padding: 5px;
+}
+
+nav > a:hover {
+    background-color: rgba(163, 163, 163, 0.527);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/* Conteúdo principal*/
+main {
+    margin: 0px auto 0px auto ;
+    width: 800px;
+    background-color: white;
+    padding: 6px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.301);
+}
+
+main > h1, main > h2 {
+    font-family: 'android';
+    background-image: linear-gradient(to right, #C6ECD6, white);
+    color: #296744;
+    text-shadow: 0px -1px 0px rgb(0 0 0 / 89%);
+}
+
+.imagens {
+    text-align: center;
+}
+
+#video {
+    background-color: #1A5C38;
+    padding: 5px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+
+}
+
+article {
+    background-color: #C5EBD6;
+    margin: 0px auto 0px auto;
+    width: 600px;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px
+}
+
+.curiosidades {
+    display: inline-block;
+    width: 230px;
+    margin-right: 97px;
+    margin-left: 5px;
+}
+
+.curiosidades-1 {
+    display: inline-block;
+    width: 230px;
+
+}
+.curiosidades > a, .curiosidades-1 > a {
+    color: black;
+    text-decoration: underline;
+
+}
+
+.curiosidades > a::before, .curiosidades-1 > a::before{
+    content: '✓ ';
+}
+
+
+footer {
+    background-color: #1A5C38;
+    margin: 20px 0px 0px 0px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+#titulo-curiosidades {
+    background-color: #2FA866;
+    margin: auto;
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px;
+    width: 600px;
+}
+
+#titulo-curiosidades > p {
+    margin: 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.notavel {
+    color: #096d34;
+    font-weight: bold;
+}
+
+.link {
+    color: #096d34;
+    background-color: #B9E1CB;
+    text-decoration: none;
+    padding: 1px 3px;
+    border-radius: 1px;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:active {
+    color: black
+}
+
+.link::after {
+    content: ' 🔗'
+}
+

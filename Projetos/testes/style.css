@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+:root {
+    --cor1: #A61F2B;
+    --cor2: #D98289;
+    --cor3: #3F4F59;
+    --cor4: #97A0A6;
+    --cor5: #F2F2F2;
+
+    --fonte-normal: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Staatliches', cursive;
+
+}
+
